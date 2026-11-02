@@ -1,4 +1,6 @@
-# 神殿视觉素材
+# 赛博神仙视觉素材
+
+`material-scene.png`：2026-11-02 使用内置 image_gen 根据用户指定的原四张素材生成的纸石纹理、几何色块与星盘背景。原始文件 `exec-aa8aeb94-5a32-41ca-868f-71da85969a6f.png`，2171×724。提示要求：横向 3:1；左侧暖象牙白留字区、右侧墨绿矿物面与细黄铜星轨，少量朱红／赭石边角，下沿渐淡；无文字、控件、宫殿或玻璃建筑。背景只作装饰，不参与占卜计算。`symbols-v2.png` 四体系原图保持不变。
 
 第二版图鉴插画位于 `illustrations-v2/`：`tarot-major.png` 为 6×4 格（前 22 格），`tarot-wands/cups/swords/pentacles.png` 分别为 4×4 格（前 14 格），`star-major/minor.png` 各为 4×4 格（前 14 格）。共覆盖 78 张牌及 28 颗星，备用格不展示。完整原图通过内置 image_gen 生成并复制保留，未裁切改写源文件；CSS 视窗按 `src/illustrations.ts` 的明确身份映射取图。所有原始提示词和生成文件来源见 `docs/visual-concepts/illustrations-v2/prompts.json`。
 
